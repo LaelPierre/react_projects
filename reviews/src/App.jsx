@@ -35,12 +35,7 @@ const App = () => {
     <main>
       <article className="review">
         <div className="img-container">
-          <img
-            src={image}
-            alt={name}
-            style={{ width: "20rem" }}
-            className="person-img"
-          />
+          <img src={image} alt={name} className="person-img" />
           <span className="quote-icon">
             <FaQuoteRight />
           </span>
