@@ -20,7 +20,7 @@ const CocktailList = () => {
 
   return (
     <div>
-      <h2>cocktail list component</h2>
+      <h2>cocktail list</h2>
     </div>
   );
 };
