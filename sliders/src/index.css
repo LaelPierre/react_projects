@@ -355,3 +355,12 @@ ul {
 .next-slide {
   transform: translateX(100%);
 }
+
+/* ============= Slick Carousel CSS =============== */
+
+.slick-container {
+  width: 80vw;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
