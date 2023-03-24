@@ -274,7 +274,7 @@ ul {
   transition: var(--transition);
 }
 
-.slide .person-img {
+.person-img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -284,19 +284,19 @@ ul {
   box-shadow: var(--shadow-3);
 }
 
-.slide .name {
+.name {
   text-transform: uppercase;
   color: var(--primary-500);
   margin-bottom: 0.75rem;
 }
 
-.slide .title {
+.title {
   text-transform: capitalize;
   color: var(--grey-700);
   margin-bottom: 0.75rem;
 }
 
-.slide .text {
+.text {
   max-width: 35em;
   margin: 0 auto;
   margin-top: 2rem;
@@ -304,7 +304,7 @@ ul {
   color: var(--grey-500);
 }
 
-.slide .icon {
+.icon {
   font-size: 3rem;
   margin-top: 1rem;
   color: var(--primary-500);
@@ -363,4 +363,17 @@ ul {
   max-width: 800px;
   margin: 0 auto;
   margin-top: 10rem;
+  text-align: center;
+}
+
+.slick-slide img {
+  display: inline-block;
+}
+
+.slick-prev::before {
+  color: var(--primary-500) !important;
+}
+
+.slick-next::before {
+  color: var(--primary-500) !important;
 }
