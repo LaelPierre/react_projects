@@ -1,0 +1,1 @@
+## React Simple Slider App
