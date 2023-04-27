@@ -1,7 +1,29 @@
 import React from "react";
+import { useState } from "react";
 
-const SingleItem = () => {
-  return <h2>SingleItem</h2>;
+const SingleItem = ({ item, removeItem }) => {
+  const [isChecked, setIsCheck] = useState(item.completed);
+
+  return (
+    <div className="single-item">
+      <input
+        type="checkbox"
+        checked={isChecked}
+        onChange={() => setIsCheck(!isChecked)}
+      />
+      <p
+        style={{
+          textTransform: "capitalize",
+          textDecoration: isChecked && "line-through",
+        }}
+      >
+        {item.name}
+      </p>
+      <button className="btn remove-btn" type="button">
+        delete
+      </button>
+    </div>
+  );
 };
 
 export default SingleItem;
